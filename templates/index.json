@@ -2,97 +2,199 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "settings": {
-        "desktop_content_position": "middle-center"
-      },
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "Industrial design meets fashion.",
+            "heading_size": "large"
+          }
+        },
+        "cc1f876f-19d0-4ad9-bd76-81fe5637ca07": {
+          "type": "text",
+          "settings": {
+            "text": "Atypical leather goods",
+            "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_label_2": ""
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
+        "cc1f876f-19d0-4ad9-bd76-81fe5637ca07",
         "button"
-      ]
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/141569803_417219312901458_4638470652865432174_n.jpg",
+        "image_2": "shopify:\/\/shop_images\/Mlouye.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
     },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
         "heading": {
-          "type": "heading"
+          "type": "heading",
+          "settings": {
+            "heading": "Obsessive Attention. Intelligent Effort.",
+            "heading_size": "h1"
+          }
         },
         "text": {
-          "type": "text"
+          "type": "text",
+          "settings": {
+            "text": "<p>Functional handbags made of luxurious materials to improve people's lives in small but mighty ways. <\/p>"
+          }
         },
         "button": {
-          "type": "button"
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "heading",
         "text",
         "button"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
     },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
+        "title": "",
+        "collection": "frontpage",
+        "products_to_show": 8,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
     "collage": {
       "type": "collage",
       "blocks": {
-        "video": {
-          "type": "video"
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "bags"
+          }
         },
         "product": {
-          "type": "product"
+          "type": "product",
+          "settings": {
+            "product": "mini-eddy-cappuccino",
+            "second_image": false
+          }
         },
-        "collection": {
-          "type": "collection"
+        "c296c390-9370-40b1-8fd0-0c12eb0a1f08": {
+          "type": "collection",
+          "settings": {
+            "collection": "shoes"
+          }
         }
       },
       "block_order": [
-        "video",
+        "collection",
         "product",
-        "collection"
-      ]
+        "c296c390-9370-40b1-8fd0-0c12eb0a1f08"
+      ],
+      "settings": {
+        "heading": "Back in stock!",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     },
     "video": {
-      "type": "video"
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/Mlouye_video.png",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=yXWXFzjVnt8&t=1s",
+        "description": "Introducing the Sera Tote Bag. See how you can customize it so it's perfect for you.",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
         "column1": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mlouye_Refinery_logo.png",
+            "title": "",
+            "text": "<p>\"The leather is sourced from environmentally friendly tanneries in Italy, France, and Turkey, where Rure is based and everything is assembled by hand.\"<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         },
         "column2": {
-          "type": "column"
-        },
-        "column3": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-cut-logo2_180x_eb657194-39db-4604-852b-1c97f84255ce.png",
+            "title": "",
+            "text": "<p>\"All too often, we're forced to pick: style, or sustainability. Recently, more designers have been making environmental impact a top priority\"<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column1",
-        "column2",
-        "column3"
-      ]
+        "column2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [

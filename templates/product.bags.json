@@ -3,16 +3,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
           }
         },
         "price": {
@@ -26,9 +26,15 @@
             "picker_type": "button"
           }
         },
-        "quantity_selector": {
+        "quantity-selector": {
           "type": "quantity_selector",
           "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
           }
         },
         "description": {
@@ -36,46 +42,40 @@
           "settings": {
           }
         },
-        "57b9f51b-4529-493e-9eca-59fa9f299c71": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "1a16d4d5-6ac9-448b-8cbc-ca55dd7f7535": {
+        "collapsible-tabs-1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Materials",
             "icon": "leather",
-            "content": "",
+            "content": "<p>{{ product.metafields.my_fields.product_materials.value }}<\/p>",
             "page": ""
           }
         },
-        "3fc36386-3cff-4b94-b22d-71eb32055605": {
+        "7f6aacc5-734d-4de1-bba7-eab1e76993e3": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
             "content": "",
-            "page": ""
+            "page": "shipping-returns"
           }
         },
-        "13cf28cb-68b5-4cbd-9677-f8b9e3edca43": {
+        "collapsible-tabs-2": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "",
+            "content": "<p>{{ product.metafields.my_fields.bag_dimensions.value }}<\/p>",
             "page": ""
           }
         },
-        "03cc9e12-9d29-48fe-ac82-a73e70265dc2": {
+        "collapsible-tabs-3": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
             "content": "",
-            "page": ""
+            "page": "shoe-care-instructions"
           }
         },
         "share": {
@@ -86,17 +86,17 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "subtitle",
         "price",
         "variant_picker",
-        "quantity_selector",
+        "quantity-selector",
+        "buy_buttons",
         "description",
-        "57b9f51b-4529-493e-9eca-59fa9f299c71",
-        "1a16d4d5-6ac9-448b-8cbc-ca55dd7f7535",
-        "3fc36386-3cff-4b94-b22d-71eb32055605",
-        "13cf28cb-68b5-4cbd-9677-f8b9e3edca43",
-        "03cc9e12-9d29-48fe-ac82-a73e70265dc2",
+        "collapsible-tabs-1",
+        "7f6aacc5-734d-4de1-bba7-eab1e76993e3",
+        "collapsible-tabs-2",
+        "collapsible-tabs-3",
         "share"
       ],
       "settings": {
@@ -104,43 +104,30 @@
         "gallery_layout": "stacked",
         "media_size": "large",
         "mobile_thumbnails": "hide",
-        "hide_variants": false,
+        "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 12
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "You may also like",
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1642553761d265bcd2": {
+    "image-with-text": {
       "type": "image-with-text",
       "blocks": {
-        "16425537610175cfb3-0": {
+        "image-with-text-0": {
           "type": "heading",
           "settings": {
             "heading": "A new kind of bag.",
             "heading_size": "h1"
           }
         },
-        "16425537610175cfb3-1": {
+        "image-with-text-1": {
           "type": "text",
           "settings": {
             "text": "<p>Unexpected shapes with smart details, functionality, a new luxury feel with a contemporary price point.<\/p>",
             "text_style": "body"
           }
         },
-        "16425537610175cfb3-2": {
+        "image-with-text-2": {
           "type": "button",
           "disabled": true,
           "settings": {
@@ -150,9 +137,9 @@
         }
       },
       "block_order": [
-        "16425537610175cfb3-0",
-        "16425537610175cfb3-1",
-        "16425537610175cfb3-2"
+        "image-with-text-0",
+        "image-with-text-1",
+        "image-with-text-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/imgwithtext_1070x_91914dd5-dcb3-4f6b-a829-e6e75fb5813e.png",
@@ -168,10 +155,10 @@
         "padding_bottom": 36
       }
     },
-    "1642553900e88b5c05": {
+    "multi-column": {
       "type": "multicolumn",
       "blocks": {
-        "1642553900d37aa254-0": {
+        "multi-column-0": {
           "type": "column",
           "settings": {
             "title": "Free Shipping",
@@ -180,7 +167,7 @@
             "link": ""
           }
         },
-        "1642553900d37aa254-1": {
+        "multi-column-1": {
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
@@ -188,22 +175,11 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "1642553900d37aa254-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "1642553900d37aa254-0",
-        "1642553900d37aa254-1",
-        "1642553900d37aa254-2"
+        "multi-column-0",
+        "multi-column-1"
       ],
       "settings": {
         "title": "",
@@ -211,37 +187,32 @@
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false,
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 24,
+        "padding_bottom": 20
       }
     },
-    "16425540194c52530e": {
-      "type": "featured-collection",
+    "product-recommendations": {
+      "type": "product-recommendations",
       "settings": {
-        "title": "You may also like",
-        "collection": "bags",
-        "products_to_show": 4,
+        "heading": "You may also like",
         "color_scheme": "background-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "image_ratio": "square",
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 28
       }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "1642553761d265bcd2",
-    "1642553900e88b5c05",
-    "16425540194c52530e"
+    "image-with-text",
+    "multi-column",
+    "product-recommendations"
   ]
 }

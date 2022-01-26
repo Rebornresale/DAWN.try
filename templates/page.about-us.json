@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "multicolumn-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-07-26_at_9.55_2_1420x_37337844-84ad-4c3b-97de-6e6821dde246.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "multicolumn-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-06-10_at_1.04_17_1420x_54862fc8-048f-4227-8f0a-aa9cacade5db.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "multicolumn-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-06-10_at_1.07_1420x_c8bb7818-f914-4f44-90d9-cdec7c3f1a69.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "multicolumn-0",
+        "multicolumn-1",
+        "multicolumn-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "rich-text-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our quality promise",
+            "heading_size": "h2"
+          }
+        },
+        "rich-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Quality is never an accident. It is always the result of intelligent effort. We spend most of our time and energy for good design and to achieve high quality. Every single detail from material to technique is thought through with obsessive attention. If our product doesn't satisfy you, we'll take it back.<\/p>"
+          }
+        },
+        "rich-text-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "rich-text-0",
+        "rich-text-1",
+        "rich-text-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "multicolumn",
+    "main",
+    "rich-text"
+  ]
+}

@@ -1,5 +1,132 @@
 {
-  "current": "Default",
+  "current": {
+    "colors_accent_1": "#121212",
+    "colors_accent_2": "#334fb4",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#ffffff",
+    "colors_background_2": "#f3f3f3",
+    "type_header_font": "assistant_n4",
+    "heading_scale": 100,
+    "type_body_font": "assistant_n4",
+    "body_scale": 100,
+    "page_width": 1200,
+    "card_style": "standard",
+    "card_color_scheme": "background-2",
+    "card_border_thickness": 0,
+    "card_border_opacity": 0,
+    "text_boxes_border_opacity": 0,
+    "media_border_opacity": 5,
+    "media_radius": 0,
+    "media_shadow_opacity": 0,
+    "accent_icons": "text",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "social_tiktok_link": "https:\/\/tiktok.com\/@shopify",
+    "social_snapchat_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/Favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Dawn_logo.png",
+    "checkout_logo_size": "small",
+    "text_boxes_padding": 20,
+    "text_boxes_border_width": 0,
+    "sale_badge_color_scheme": "accent-2",
+    "media_border_width": 0,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Free shipping available on all orders!",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/Dawn_logo.png",
+          "logo_width": 90,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true,
+          "margin_bottom": 0
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "d31bae68-cfea-46ab-9d20-283959bc60a7": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer-menu-2"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "Our mission",
+              "subtext": "<p>Quality materials, good designs, craftsmanship and sustainability.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "d31bae68-cfea-46ab-9d20-283959bc60a7",
+          "footer-1"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": true,
+          "margin_top": 48,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo_max_width": 100,
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
   "presets": {
     "Default": {
       "colors_solid_button_labels": "#FFFFFF",
@@ -24,7 +151,9 @@
           },
           "block_order": [
             "announcement-bar-0"
-          ]
+          ],
+          "settings": {
+          }
         }
       }
     },
@@ -41,21 +170,25 @@
       "sections": {
         "footer": {
           "type": "footer",
-          "settings": {
-            "color_scheme": "accent-1"
-          },
           "blocks": {
             "menu": {
-              "type": "link_list"
+              "type": "link_list",
+              "settings": {
+              }
             },
             "text": {
-              "type": "text"
+              "type": "text",
+              "settings": {
+              }
             }
           },
           "block_order": [
             "menu",
             "text"
-          ]
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
         }
       }
     }
