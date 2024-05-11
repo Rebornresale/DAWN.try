@@ -2403,7 +2403,8 @@
         }
       },
       "presets": {
-        "name": "Texte enrichi"
+        "rich-text": "Texte enrichi",
+        "heading": "En-tête"
       }
     },
     "apps": {

@@ -2403,7 +2403,8 @@
         }
       },
       "presets": {
-        "name": "Zengin metin"
+        "rich-text": "Zengin metin",
+        "heading": "Başlık"
       }
     },
     "apps": {

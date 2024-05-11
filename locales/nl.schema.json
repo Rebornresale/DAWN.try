@@ -2403,7 +2403,8 @@
         }
       },
       "presets": {
-        "name": "Tekst met opmaak"
+        "rich-text": "Tekst met opmaak",
+        "heading": "Koptekst"
       }
     },
     "apps": {
