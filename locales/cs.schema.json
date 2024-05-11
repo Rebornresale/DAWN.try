@@ -1610,7 +1610,7 @@
       }
     },
     "main-product": {
-      "name": "Informace o produktu",
+      "name": "Obsah týkající se produktu",
       "blocks": {
         "text": {
           "name": "Text",

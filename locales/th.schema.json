@@ -1610,7 +1610,7 @@
       }
     },
     "main-product": {
-      "name": "ข้อมูลสินค้า",
+      "name": "เนื้อหาสินค้า",
       "blocks": {
         "text": {
           "settings": {

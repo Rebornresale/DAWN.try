@@ -1610,7 +1610,7 @@
       }
     },
     "main-product": {
-      "name": "Thông tin sản phẩm",
+      "name": "Nội dung sản phẩm",
       "blocks": {
         "text": {
           "name": "Văn bản",
